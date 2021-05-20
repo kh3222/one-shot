@@ -4,14 +4,32 @@
 
 
 
-
-
 .brunchmenu {
-    text-align: center;
-    font-weight: bolder;
+    text-align: center ;
+    font-family: 'Bebas Neue', cursive;
+
 }
 
-.sandwiches {
-    display: grid;
-    grid-template-columns: 413px 413px;
+#breakfast-sandwiches {
+    text-align: right;
+}
+
+#cafe-favorites {
+    text-align: left;
+}
+
+#menu {
+    display: flex;
+    column-gap: 36px;
+    padding: 81px;
+
+
+    .menu-left {
+        text-align: left;
+    }
+
+    .menu-right {
+        text-align: right;
+    }
+
 }

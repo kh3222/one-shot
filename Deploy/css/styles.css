@@ -1,0 +1,64 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fd9090;
+  background-color: gray;
+}
+
+#hero {
+  align-items: center;
+  background-image: url(../img/hero/hero.png);
+  border-image-width: 100;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 75vh;
+  background-position: center;
+}
+#hero #herotext {
+  padding: 24px 40px;
+}
+#hero #herotext h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #EBD7B2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+#hero #herotext p {
+  font-family: "Sanchez", serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: initial;
+  color: #EBD7B2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* =============
+    BRUNCH
+============= */
+.brunchmenu {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+#breakfast-sandwiches {
+  text-align: right;
+}
+
+#cafe-favorites {
+  text-align: left;
+}
+
+#menu {
+  display: flex;
+  column-gap: 36px;
+  padding: 81px;
+}
+#menu .menu-left {
+  text-align: left;
+}
+#menu .menu-right {
+  text-align: right;
+}

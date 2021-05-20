@@ -1,5 +1,3 @@
-HERO
-
 
 
 
@@ -7,21 +5,39 @@ HERO
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(253, 144, 144);
     background-color: gray;
 }
 
 #hero {
     align-items: center;
+    background-image: url(../img/hero/hero.png);
+    border-image-width: 100;
     display: flex;
-    justify-content: center;
-    background-image:url(..img/hero/hero.png);
-    min-height: 100vh;
+    justify-content: flex-start;
+    min-height: 75vh;
     background-position: center;
-}
 
-#herotext {
-    font-size: larger;
-    font-weight: bolder;
-    justify-items: left;
+    #herotext {
+        
+        padding: 24px 40px;
+        h1{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 60px;
+            font-weight: bolder;
+            text-transform: uppercase;
+            color: #EBD7B2;
+            text-shadow: 0 2px 4px rgba($color: #000000, $alpha: 0.5);
+            
+        }
+
+        p{
+            font-family: 'Sanchez', serif;
+            font-size: 16px;
+            font-weight: normal;
+            text-transform: initial;
+            color: #EBD7B2;
+            text-shadow: 0 2px 4px rgba($color: #000000, $alpha: 0.5);
+        }
+    }
 }

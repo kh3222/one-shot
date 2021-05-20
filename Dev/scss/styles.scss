@@ -3,7 +3,7 @@
 // Helpers Styles
 
 // Base Styles
-
+@import "base/_base.scss";
 
 // Components Styles
 
@@ -12,5 +12,5 @@
 
 
 // Sections Styles
-@import "sections/_hero";
-@import "sections/_brunch";
+@import "sections/_hero.scss";
+@import "sections/_brunch.scss";
