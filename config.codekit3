@@ -148,6 +148,14 @@
       "oAP" : "\/Dev\/content\/menu.html",
       "oF" : 0
     },
+    "\/Dev\/global\/head.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/global\/head.html",
+      "oF" : 0
+    },
     "\/Dev\/global\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -163,6 +171,60 @@
       "oA" : 0,
       "oAP" : "\/Deploy\/index.html",
       "oF" : 3
+    },
+    "\/Dev\/scss\/sections\/_brunch.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/scss\/sections\/_brunch.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/Dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/Dev\/scss\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/scss\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/Dev\/scss\/styles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/scss\/styles.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/README.md" : {
       "cB" : 0,

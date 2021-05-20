@@ -1,0 +1,27 @@
+HERO
+
+
+
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: gray;
+}
+
+#hero {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image:url(..img/hero/hero.png);
+    min-height: 100vh;
+    background-position: center;
+}
+
+#herotext {
+    font-size: larger;
+    font-weight: bolder;
+    justify-items: left;
+}
