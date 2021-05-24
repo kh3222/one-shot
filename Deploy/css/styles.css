@@ -1,3 +1,34 @@
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 60;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Sanchez", serif;
+  font-size: 28;
+}
+
+h3 {
+  font-family: "Sanchez", serif;
+  font-size: 20;
+}
+
+li {
+  font-family: "Sanchez", serif;
+  font-size: 16;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  font-family: "Sanchez", serif;
+  font-size: 16;
+  list-style: none;
+}
+
 .body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -41,14 +72,19 @@
 .brunchmenu {
   text-align: center;
   font-family: "Bebas Neue", cursive;
+  font-size: 60;
 }
 
 #breakfast-sandwiches {
-  text-align: right;
+  text-align: left;
+  font-family: "Sanchez", serif;
+  font-size: 28;
 }
 
 #cafe-favorites {
   text-align: left;
+  font-family: "Sanchez", serif;
+  font-size: 28;
 }
 
 #menu {
@@ -60,5 +96,10 @@
   text-align: left;
 }
 #menu .menu-right {
-  text-align: right;
+  text-align: left;
+}
+
+aside {
+  font-family: "Sanchez", serif;
+  font-size: 12;
 }

@@ -7,15 +7,20 @@
 .brunchmenu {
     text-align: center ;
     font-family: 'Bebas Neue', cursive;
+    font-size: 60;
 
 }
 
 #breakfast-sandwiches {
-    text-align: right;
+    text-align: left;
+    font-family: 'Sanchez', serif;
+    font-size: 28;
 }
 
 #cafe-favorites {
     text-align: left;
+    font-family: 'Sanchez', serif;
+    font-size: 28;
 }
 
 #menu {
@@ -29,7 +34,12 @@
     }
 
     .menu-right {
-        text-align: right;
+        text-align: left;
     }
 
+}
+
+aside {
+    font-family: 'Sanchez', serif;
+    font-size: 12;
 }
