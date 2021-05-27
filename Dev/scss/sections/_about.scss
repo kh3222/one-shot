@@ -11,8 +11,11 @@
         grid-template-columns: 449px 449px;
         grid-template-rows: 64px 313px;
         gap: 32px;
+        column-gap: 100px;
         margin-bottom: 250px;
         margin-top: 32px;
+        margin-left: 75px;
+        margin-right: 75px;
         grid-template-areas: 
         ". a2"
         "b1 b2";
@@ -42,6 +45,7 @@
         grid-template-columns: 449px 449px;
         grid-template-rows: 64px 313px;
         gap: 32px;
+        column-gap: 100px;
         margin-bottom: 120px;
         margin-top: 32px;
         grid-template-areas: 

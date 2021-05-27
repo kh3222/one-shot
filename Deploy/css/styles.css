@@ -61,8 +61,10 @@ aside {
   justify-content: flex-start;
   min-height: 75vh;
   background-position: center;
+  width: 100%;
 }
 #hero #herotext {
+  margin-top: 400px;
   padding: 24px 40px;
 }
 #hero #herotext h1 {
@@ -72,6 +74,7 @@ aside {
   text-transform: uppercase;
   color: #EBD7B2;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: -20px;
 }
 #hero #herotext p {
   font-family: "Sanchez", serif;
@@ -93,14 +96,27 @@ aside {
 }
 
 #pancake-1 {
-  display: grid;
+  width: 100%;
+  align-items: center;
+  background-image: url(../img/brunch/pancake.png);
+  border-image-width: 100;
+  display: flex;
   justify-content: center;
+  min-height: 20vh;
+  min-width: 20vh;
+  background-position: center;
 }
 
 #bagel-coffee {
-  display: grid;
+  width: 100%;
+  align-items: center;
+  background-image: url(../img/brunch/brunch-2.png);
+  border-image-width: 100;
+  display: flex;
   justify-content: center;
-  margin-bottom: 76px;
+  min-height: 20vh;
+  min-width: 20vh;
+  background-position: center;
 }
 
 .brunchmenu {
@@ -134,6 +150,29 @@ aside {
   text-align: left;
 }
 
+@media (max-width: 320px) {
+  #intro #brunch-intro-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 328px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 32px;
+    margin-bottom: 64px;
+    margin-top: 32px;
+    grid-template-areas: "a1" "b1" "c1";
+  }
+  #intro #brunch-intro-header {
+    grid-area: a1;
+    text-align: center;
+  }
+  #intro #bruch-intro-p {
+    grid-area: b1;
+  }
+  #intro #brunch-img-1 {
+    grid-area: c1;
+    margin-top: -36px;
+  }
+}
 #intro #brunch-intro-container {
   display: grid;
   justify-content: center;
@@ -162,8 +201,11 @@ aside {
   grid-template-columns: 449px 449px;
   grid-template-rows: 64px 313px;
   gap: 32px;
+  column-gap: 100px;
   margin-bottom: 250px;
   margin-top: 32px;
+  margin-left: 75px;
+  margin-right: 75px;
   grid-template-areas: ". a2" "b1 b2";
 }
 #coffee-tea #coffee-tea-header {
@@ -183,6 +225,7 @@ aside {
   grid-template-columns: 449px 449px;
   grid-template-rows: 64px 313px;
   gap: 32px;
+  column-gap: 100px;
   margin-bottom: 120px;
   margin-top: 32px;
   grid-template-areas: "a1 ." "b1 b2";
@@ -216,4 +259,73 @@ aside {
 #about-us #about-us-p {
   margin-left: 120px;
   margin-right: 120px;
+}
+
+#gallery #gallery-container {
+  display: grid;
+  justify-content: center;
+  grid-gap: 32px;
+  grid-template-columns: 209px 209px 209px 209px;
+  grid-template-rows: 209px 209px 209px 209px;
+  grid-template-areas: "g1 g2 g3 g3" "g4 g4 g3 g3" "g5 g5 g5 g6" "g5 g5 g5 g7";
+}
+#gallery #gallery-header {
+  text-align: center;
+  margin-top: -150px;
+}
+#gallery #gal-1 {
+  grid-area: g1;
+}
+#gallery #gal-2 {
+  grid-area: g2;
+}
+#gallery #gal-3 {
+  grid-area: g3;
+}
+#gallery #gal-4 {
+  grid-area: g4;
+}
+#gallery #gal-5 {
+  grid-area: g5;
+}
+#gallery #gal-6 {
+  grid-area: g6;
+}
+#gallery #gal-7 {
+  grid-area: g7;
+}
+
+#footer-contents #footer-header {
+  margin-top: 200px;
+  color: #703F22;
+  text-align: center;
+}
+#footer-contents #footer-phone {
+  color: #703F22;
+  text-align: center;
+}
+#footer-contents #footer-address {
+  color: #703F22;
+  text-align: center;
+}
+
+#socials-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  column-gap: 30px;
+  scale: 2;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  grid-template-areas: "s1 s2";
+}
+
+#instagram {
+  grid-area: s1;
+  color: #703F22;
+}
+
+#twitter {
+  grid-area: s2;
+  color: #703F22;
 }

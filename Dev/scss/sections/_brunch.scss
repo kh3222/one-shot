@@ -11,14 +11,28 @@
 }
 
 #pancake-1 {
-    display: grid;
+    width: 100%;
+    align-items: center;
+    background-image: url(../img/brunch/pancake.png);
+    border-image-width: 100;
+    display: flex;
     justify-content: center;
+    min-height: 20vh;
+    min-width: 20vh;
+    background-position: center;
 }
 
 #bagel-coffee {
-    display: grid;
+    width: 100%;
+
+    align-items: center;
+    background-image: url(../img/brunch/brunch-2.png);
+    border-image-width: 100;
+    display: flex;
     justify-content: center;
-    margin-bottom: 76px;
+    min-height: 20vh;
+    min-width: 20vh;
+    background-position: center;
 }
 
 .brunchmenu {

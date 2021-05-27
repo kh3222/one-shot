@@ -17,9 +17,12 @@
     justify-content: flex-start;
     min-height: 75vh;
     background-position: center;
+    width: 100%;
+
 
     #herotext {
         
+        margin-top: 400px;
         padding: 24px 40px;
         h1{
             font-family: 'Bebas Neue', cursive;
@@ -28,6 +31,7 @@
             text-transform: uppercase;
             color: #EBD7B2;
             text-shadow: 0 2px 4px rgba($color: #000000, $alpha: 0.5);
+            margin-bottom: -20px;
             
         }
 

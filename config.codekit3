@@ -112,6 +112,121 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Deploy\/img\/footer\/Fill 1.eps" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/footer\/Fill 1.eps",
+      "oF" : 0
+    },
+    "\/Deploy\/img\/footer\/instagram.eps" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/footer\/instagram.eps",
+      "oF" : 0
+    },
+    "\/Deploy\/img\/footer\/twitter.eps" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/footer\/twitter.eps",
+      "oF" : 0
+    },
+    "\/Deploy\/img\/gallery\/gal-1.png" : {
+      "ft" : 32768,
+      "iS" : 105095,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/gallery\/gal-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/img\/gallery\/gal-2.png" : {
+      "ft" : 32768,
+      "iS" : 102681,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/gallery\/gal-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/img\/gallery\/gal-3.png" : {
+      "ft" : 32768,
+      "iS" : 428085,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/gallery\/gal-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/img\/gallery\/gal-4.png" : {
+      "ft" : 32768,
+      "iS" : 262143,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/gallery\/gal-4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/img\/gallery\/gal-5.png" : {
+      "ft" : 32768,
+      "iS" : 594302,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/gallery\/gal-5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/img\/gallery\/gal-6.png" : {
+      "ft" : 32768,
+      "iS" : 124600,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/gallery\/gal-6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/img\/gallery\/gal-7.png" : {
+      "ft" : 32768,
+      "iS" : 123913,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/gallery\/gal-7.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Deploy\/img\/hero\/hero.png" : {
       "ft" : 32768,
       "iS" : 701750,
@@ -165,12 +280,28 @@
       "oAP" : "\/Dev\/content\/coffee-pastry-about.html",
       "oF" : 0
     },
+    "\/Dev\/content\/gallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/content\/gallery.html",
+      "oF" : 0
+    },
     "\/Dev\/content\/menu.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/Dev\/content\/menu.html",
+      "oF" : 0
+    },
+    "\/Dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/global\/footer.html",
       "oF" : 0
     },
     "\/Dev\/global\/head.kit" : {
@@ -248,6 +379,34 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/Dev\/scss\/sections\/_brunch.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/Dev\/scss\/sections\/_footer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/scss\/sections\/_footer.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/Dev\/scss\/sections\/_gallery.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/scss\/sections\/_gallery.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

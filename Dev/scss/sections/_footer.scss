@@ -1,0 +1,43 @@
+#footer-contents {
+
+    #footer-header {
+        margin-top: 200px;
+        color: #703F22;
+        text-align: center;
+    }
+
+    #footer-phone {
+        color: #703F22;
+        text-align: center;
+    }
+
+    #footer-address {
+        color: #703F22;
+        text-align: center;
+    }
+
+}
+
+#socials-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    scale: 2;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    grid-template-areas: 
+    "s1 s2";
+}
+
+#instagram {
+    grid-area: s1;
+    color: #703F22;
+
+}
+
+#twitter {
+    grid-area: s2;
+    color: #703F22;
+
+}
