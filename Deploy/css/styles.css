@@ -15,16 +15,19 @@ p {
 h2 {
   font-family: "Sanchez", serif;
   font-size: 28;
+  color: #886948;
 }
 
 h3 {
   font-family: "Sanchez", serif;
   font-size: 20;
+  color: #886948;
 }
 
 li {
   font-family: "Sanchez", serif;
   font-size: 16;
+  color: #886948;
 }
 
 ul {
@@ -35,6 +38,11 @@ ul li {
   font-family: "Sanchez", serif;
   font-size: 16;
   list-style: none;
+}
+
+aside {
+  color: #886948;
+  font-family: "Sanchez", serif;
 }
 
 .body {
@@ -77,10 +85,29 @@ ul li {
 /* =============
     BRUNCH
 ============= */
+#menu {
+  display: grid;
+  margin-left: 81px;
+  margin-right: 81px;
+  justify-content: center;
+}
+
+#pancake-1 {
+  display: grid;
+  justify-content: center;
+}
+
+#bagel-coffee {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 76px;
+}
+
 .brunchmenu {
   text-align: center;
   font-family: "Bebas Neue", cursive;
-  font-size: 60;
+  font-size: 60px;
+  margin-bottom: -124px;
 }
 
 #breakfast-sandwiches {
@@ -107,26 +134,86 @@ ul li {
   text-align: left;
 }
 
-aside {
-  font-family: "Sanchez", serif;
-  font-size: 12;
-}
-
-#intro .grid-container {
+#intro #brunch-intro-container {
   display: grid;
-  grid-template-columns: 328px 328px;
-  grid-template-rows: 300px;
   justify-content: center;
-  padding: 32px;
-  grid-template-areas: "left right";
+  grid-template-columns: 328px 328px;
+  grid-template-rows: 64px 300px;
+  gap: 32px;
+  margin-bottom: 64px;
+  margin-top: 32px;
+  grid-template-areas: "a1 ." "b1 b2";
 }
-#intro .brunchintro {
-  grid-area: left;
-}
-#intro .brunchintro .brunch-header {
+#intro #brunch-intro-header {
+  grid-area: a1;
   text-align: right;
 }
-#intro .brunchimg1 {
-  grid-area: right;
-  float: right;
+#intro #bruch-intro-p {
+  grid-area: b1;
+}
+#intro #brunch-img-1 {
+  grid-area: b2;
+  margin-top: -36px;
+}
+
+#coffee-tea #coffee-tea-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 449px 449px;
+  grid-template-rows: 64px 313px;
+  gap: 32px;
+  margin-bottom: 250px;
+  margin-top: 32px;
+  grid-template-areas: ". a2" "b1 b2";
+}
+#coffee-tea #coffee-tea-header {
+  grid-area: a2;
+}
+#coffee-tea #img-coffee-tea {
+  grid-area: b1;
+  margin-top: -80px;
+}
+#coffee-tea #coffee-tea-p {
+  grid-area: b2;
+}
+
+#pastries #pastries-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 449px 449px;
+  grid-template-rows: 64px 313px;
+  gap: 32px;
+  margin-bottom: 120px;
+  margin-top: 32px;
+  grid-template-areas: "a1 ." "b1 b2";
+}
+#pastries #pastries-header {
+  grid-area: a1;
+  text-align: right;
+}
+#pastries #pastries-img {
+  grid-area: b2;
+  margin-top: -120px;
+}
+#pastries #pastries-p {
+  grid-area: b1;
+}
+
+#about-us #about-us-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 928px;
+  grid-template-rows: auto;
+  gap: 32px;
+  margin-bottom: 250px;
+  margin-top: 32px;
+  grid-template-areas: "a1";
+}
+#about-us #about-us-header {
+  text-align: center;
+  margin-bottom: -20px;
+}
+#about-us #about-us-p {
+  margin-left: 120px;
+  margin-right: 120px;
 }

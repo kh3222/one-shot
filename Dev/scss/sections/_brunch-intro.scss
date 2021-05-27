@@ -1,27 +1,37 @@
 #intro {
-    
-    .grid-container {
+        
+    #brunch-intro-container {
         display: grid;
-        grid-template-columns: 328px 328px;
-        grid-template-rows: 300px;
         justify-content: center;
-        padding: 32px;
-        grid-template-areas:
-            "left right";
+        grid-template-columns: 328px 328px;
+        grid-template-rows: 64px 300px;
+        gap: 32px;
+        margin-bottom: 64px;
+        margin-top: 32px;
+        grid-template-areas: 
+        "a1 ."
+        "b1 b2";
       
     }
-    
-    .brunchintro {
-        grid-area: left;
-        
-        .brunch-header {
-            text-align: right;}
-    }
-    
-    .brunchimg1 {
-        grid-area: right;
-        float: right;
+
+    #brunch-intro-header {
+        grid-area: a1;
+        text-align: right;
+
     }
 
+    #bruch-intro-p {
+        grid-area: b1;
+    }
+    
+    #brunch-img-1 {
+        grid-area: b2;
+        margin-top: -36px;
+    }
+    
+
 }
+
+
+
 

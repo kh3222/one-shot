@@ -3,11 +3,29 @@
 ============= */
 
 
+#menu {
+    display: grid;
+    margin-left: 81px;
+    margin-right: 81px;
+    justify-content: center;
+}
+
+#pancake-1 {
+    display: grid;
+    justify-content: center;
+}
+
+#bagel-coffee {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 76px;
+}
 
 .brunchmenu {
     text-align: center ;
     font-family: 'Bebas Neue', cursive;
-    font-size: 60;
+    font-size: 60px;
+    margin-bottom: -124px;
 
 }
 
@@ -39,7 +57,3 @@
 
 }
 
-aside {
-    font-family: 'Sanchez', serif;
-    font-size: 12;
-}

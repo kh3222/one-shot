@@ -1,0 +1,92 @@
+
+
+
+
+
+#coffee-tea {
+
+    #coffee-tea-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 449px 449px;
+        grid-template-rows: 64px 313px;
+        gap: 32px;
+        margin-bottom: 250px;
+        margin-top: 32px;
+        grid-template-areas: 
+        ". a2"
+        "b1 b2";
+    }
+
+
+    #coffee-tea-header {
+        grid-area: a2;
+    }
+    
+    #img-coffee-tea {
+        grid-area: b1;
+        margin-top: -80px;
+    }
+    
+    #coffee-tea-p {
+        grid-area: b2;
+
+    }
+}
+
+#pastries {
+
+    #pastries-container{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 449px 449px;
+        grid-template-rows: 64px 313px;
+        gap: 32px;
+        margin-bottom: 120px;
+        margin-top: 32px;
+        grid-template-areas: 
+        "a1 ."
+        "b1 b2";
+    }
+
+    #pastries-header {
+        grid-area: a1;
+        text-align: right;
+    }
+
+    #pastries-img {
+        grid-area: b2;
+        margin-top: -120px;
+    }
+
+    #pastries-p {
+        grid-area: b1;
+    }
+    
+
+}
+
+#about-us {
+    
+    #about-us-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 928px;
+        grid-template-rows: auto;
+        gap: 32px;
+        margin-bottom: 250px;
+        margin-top: 32px;
+        grid-template-areas: 
+        "a1";
+    }
+
+    #about-us-header {
+        text-align: center;
+        margin-bottom: -20px;
+    }
+
+    #about-us-p {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
