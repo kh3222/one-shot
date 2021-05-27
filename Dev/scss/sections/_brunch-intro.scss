@@ -1,0 +1,27 @@
+#intro {
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 328px 328px;
+        grid-template-rows: 300px;
+        justify-content: center;
+        padding: 32px;
+        grid-template-areas:
+            "left right";
+      
+    }
+    
+    .brunchintro {
+        grid-area: left;
+        
+        .brunch-header {
+            text-align: right;}
+    }
+    
+    .brunchimg1 {
+        grid-area: right;
+        float: right;
+    }
+
+}
+
