@@ -93,6 +93,7 @@ aside {
   margin-left: 81px;
   margin-right: 81px;
   justify-content: center;
+  margin: 140px;
 }
 
 #pancake-1 {
@@ -150,7 +151,7 @@ aside {
   text-align: left;
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 370px) {
   #intro #brunch-intro-container {
     display: grid;
     justify-content: center;
@@ -265,6 +266,7 @@ aside {
   display: grid;
   justify-content: center;
   grid-gap: 32px;
+  margin-bottom: 32px;
   grid-template-columns: 209px 209px 209px 209px;
   grid-template-rows: 209px 209px 209px 209px;
   grid-template-areas: "g1 g2 g3 g3" "g4 g4 g3 g3" "g5 g5 g5 g6" "g5 g5 g5 g7";
@@ -315,8 +317,7 @@ aside {
   grid-template-columns: auto auto;
   column-gap: 30px;
   scale: 2;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin: 72px;
   grid-template-areas: "s1 s2";
 }
 
@@ -328,4 +329,8 @@ aside {
 #twitter {
   grid-area: s2;
   color: #703F22;
+}
+
+#footer-bg {
+  background-color: #FAE0AC;
 }
