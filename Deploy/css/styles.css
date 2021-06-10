@@ -32,7 +32,7 @@ li {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding: 1;
 }
 ul li {
   font-family: "Sanchez", serif;
@@ -45,6 +45,45 @@ aside {
   font-family: "Sanchez", serif;
 }
 
+@media only screen and (max-width: 370px) and (max-width: 370px) {
+  #intro #brunch-intro-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 328px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 32px;
+    margin-bottom: 64px;
+    margin-top: 32px;
+    grid-template-areas: "a1" "b1" "c1";
+  }
+  #intro #brunch-intro-header {
+    grid-area: a1;
+    text-align: center;
+  }
+  #intro #bruch-intro-p {
+    grid-area: b1;
+  }
+  #intro #brunch-img-1 {
+    grid-area: c1;
+    margin-top: -36px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  #menu {
+    display: grid;
+    grid-column: 370px;
+    grid-row: auto auto;
+    grid-template-areas: "a1" "a2";
+  }
+  #menu .menu-left {
+    text-align: left;
+    grid-area: a1;
+  }
+  #menu .menu-right {
+    text-align: left;
+    grid-area: a2;
+  }
+}
 .body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -151,29 +190,6 @@ aside {
   text-align: left;
 }
 
-@media only screen and (max-width: 370px) {
-  #intro #brunch-intro-container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 328px;
-    grid-template-rows: 300px 300px 300px;
-    gap: 32px;
-    margin-bottom: 64px;
-    margin-top: 32px;
-    grid-template-areas: "a1" "b1" "c1";
-  }
-  #intro #brunch-intro-header {
-    grid-area: a1;
-    text-align: center;
-  }
-  #intro #bruch-intro-p {
-    grid-area: b1;
-  }
-  #intro #brunch-img-1 {
-    grid-area: c1;
-    margin-top: -36px;
-  }
-}
 #intro #brunch-intro-container {
   display: grid;
   justify-content: center;
